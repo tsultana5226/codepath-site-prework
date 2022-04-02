@@ -1,0 +1,62 @@
+
+body {
+  margin: 2em;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+  background-color: #9EC1CF;
+  color: black; 
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: #ff964f;
+}
+
+#button2 {
+    background: #AEC6CF;
+}
+
+#button3 {
+    background: #FABEC0;
+}
+
+#button4 {
+    background: #ECF87F;
+}
+
+#button1:active, #button1.lit {
+    background-image: url('https://cliparts.zone/img/1520157.png');
+    background:#ff6600;
+}
+
+#button2:active, #button2.lit {
+    background:#273B42;
+}
+
+#button3:active, #button3.lit {
+    background:#E43D40;
+}
+
+#button4:active, #button4.lit {
+    background:#3D550C;
+}
